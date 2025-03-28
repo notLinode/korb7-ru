@@ -1,0 +1,11 @@
+Model Information:
+* title:	Pikmin - Bulborb
+* source:	https://sketchfab.com/3d-models/pikmin-bulborb-5e40a8bfa6d9499dbf6caa56da5a21c1
+* author:	Breadbug (https://sketchfab.com/eande941)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Pikmin - Bulborb" (https://sketchfab.com/3d-models/pikmin-bulborb-5e40a8bfa6d9499dbf6caa56da5a21c1) by Breadbug (https://sketchfab.com/eande941) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+        <link href="style.css" type="text/css" rel="stylesheet">
+        
+        <link rel="icon" type="image/png" href="favicon.png">
+        
+        <title>KORB7</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="column1"></div>
+            <div class="column2">
+                <div class="site-header">
+                    <div class="site-header-left">
+                        <fieldset class="custom-border discord-invite">
+                            <legend class="unselectable">discord</legend>
+                            <div class="border-contents name">
+                                <a href="https://discord.gg/3baBuewbhQ">KORB7</a>
+                            </div>
+                        </fieldset>
+                        
+                        <fieldset class="custom-border bulborb-container">
+                            <legend class="unselectable">bulborb</legend>
+                            <div class="border-contents bulborb-canvas-container">
+                                <model-viewer
+                                id="bulborb"
+                                alt="Bulborb 3D model"
+                                src="shared-assets/models/bulborb/scene.gltf"
+                                poster="shared-assets/models/bulborb/poster.png"
+                                loading="eager"
+                                camera-controls
+                                touch-action="pan-y"
+                                auto-rotate
+                                ></model-viewer>
+                            </div>
+                        </fieldset>
+                    </div>
+                    
+                    <div class="site-header-right">
+                        <fieldset class="custom-border lore-gif">
+                            <legend class="unselectable">lore</legend>
+                            <div class="border-contents">
+                                <img src="shared-assets/korb7.gif" width="100%">
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+
+                <fieldset class="custom-border">
+                    <legend class="unselectable">mantra</legend>
+                    <div class="border-contents">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+                        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+                        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id 
+                        est laborum.
+                    </div>
+                </fieldset>
+            </div>
+            <div class="column1"></div>
+        </div>
+    </body>
+</html>
