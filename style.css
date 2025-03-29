@@ -147,11 +147,7 @@ a:hover {
     }
 }
 
-@media only screen and (orientation: portrait) {
-    .column1 {
-        width: 0%;
-    }
-
+@media only screen and (max-width: 720px) {
     .site-header {
         flex-direction: column;
     }
@@ -177,5 +173,11 @@ a:hover {
 
     .site-header-right {
         width: 100%;
+    }
+}
+
+@media only screen and (orientation: portrait) {
+    .column1 {
+        width: 0%;
     }
 }
