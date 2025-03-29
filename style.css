@@ -135,7 +135,19 @@ a:hover {
     font-size: 0.8em;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1280px) {
+    .column1 {
+        width: 10%;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .column1 {
+        width: 25%;
+    }
+}
+
+@media only screen and (orientation: portrait) {
     .column1 {
         width: 0%;
     }
@@ -154,6 +166,10 @@ a:hover {
         align-items: center;
     }
 
+    .name {
+        margin: 0.25em 2em;
+    }
+
     .lore-container {
         display: flex;
         justify-content: center;
@@ -161,11 +177,5 @@ a:hover {
 
     .site-header-right {
         width: 100%;
-    }
-}
-
-@media only screen and (max-width: 1200px) {
-    .column1 {
-        width: 10%;
     }
 }
